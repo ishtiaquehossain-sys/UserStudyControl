@@ -24,7 +24,7 @@ class Gui(QMainWindow):
         self.setWindowTitle("Viewer")
 
         self.shape_selector = QtWidgets.QComboBox(self)
-        self.shape_selector.addItems(['bench', 'chair'])
+        self.shape_selector.addItems(['bench', 'table'])
         self.refresh_button = QtWidgets.QPushButton(self)
         self.refresh_button.setText('Refresh')
         self.refresh_button.setIcon(QIcon('assets/refresh.png'))

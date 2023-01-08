@@ -1,2 +1,2 @@
-pyqt5~=5.15.6
-pillow~=8.4.0
+pyqt5
+pillow
